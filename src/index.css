@@ -1,0 +1,25 @@
+.tab-container{
+    margin:10px;
+    background-color: #ffffff;
+}
+
+.tab-content-container{
+    padding:5px 20px 20px 20px
+}
+
+.tab-text{
+    padding-bottom: 10px;
+}
+
+.tab-outline{
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.link-line{
+    padding:5px 0px 20px 0px;
+}
+
+
+
+

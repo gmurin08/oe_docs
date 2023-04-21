@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import FillExample from './FillExample'
+import logo from './assets/oe_logo_wide.png'
+import TabList from './TabList'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (<>
-      <FillExample/>
-    </>
-  )
+  return (<div>
+      <div className="tab-heading">
+        <img src={logo} alt="" />
+      </div>
+      <div className="tab-body">
+        <div className="tab-container">
+          <TabList/>
+        </div>
+      </div>
+  </div>)
 }
 
 export default App
